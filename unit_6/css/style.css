@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+body {
+		background-color: #272b33;
+		font-family: 'Arimo', sans-serif;
+		line-height: 1.5em;
+		letter-spacing: .08em;
+		color: #ffffff;
+}
+#topbar {
+	margin: 20px;
+}
+
+header{
+		float: left;
+		padding-top: 5%;
+}
+
+nav{
+		font-size: 14px; 
+		float: right;
+		padding-top: 5%;
+}
+
+article{
+	
+}
+
+div{ 
+
+}
+
+section {
+	padding-top: 150px;
+}
+
+#two_column{
+		background-color: #FFB7CF;
+		border: 1px black solid;
+		padding: 20px;
+}
+
+#left{
+		background-color: violet;
+		border: 1px black solid;
+		padding: 20px;	
+		float: left;
+		width: 30%;	
+}
+
+#right{
+		background-color: pink;
+		border: 1px black solid;
+		padding: 20px;	
+		float: right;
+		width: 62%;
+}
+
+#follow{
+		position: fixed;
+		bottom: 20px;
+		left: 20px;
+		padding-bottom: 5%;
+}
+
+.clearfix:after {
+		visibility: hidden;
+		display: block;
+		font-size: 0;
+		content: " ";
+		clear: both;
+		height: 0;
+}
+
+footer{ 
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		padding-bottom: 5%;
+}
+
+h1{
+		color: #d8d2ff;
+		font-size: 26px;
+		line-height: 1.2em;
+}
+
+h3{
+		color: #d8d2ff;
+		font-size: 12px;
+		font-weight: lighter;
+}
+
+ul{
+		list-style: none;
+}
+
+a{
+		color: #ffffff;
+		font-size: 12px;
+		text-decoration: none;
+		padding: 5px;
+}
+
+#logo{
+		width: 90px;
