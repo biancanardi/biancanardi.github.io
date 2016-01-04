@@ -3,15 +3,18 @@
 body {
 		background-color: #272b33;
 		font-family: 'Arimo', sans-serif;
-		font-size: 14px
+		font-size: 14px;
 		line-height: 1.5em;
 		letter-spacing: .08em;
 		color: #ffffff;
+		/*position: relative;
+		height:100%;*/
 }
 
 header {
 		float: left;
 		padding-top: 5%;
+		width: 105px;
 }
 
 nav {
@@ -31,7 +34,7 @@ div {
 }
 
 #topbar {
-	margin: 5%;
+	padding: 5%;
 }
 
 #follow{
@@ -41,13 +44,13 @@ div {
 		padding-bottom: 5%;
 }
 
-.clearfix:after {
-		visibility: hidden;
-		display: block;
-		font-size: 0;
-		content: " ";
-		clear: both;
-		height: 0;
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 footer{ 
@@ -81,14 +84,24 @@ a{
 }
 
 #logo{
-		width: 100%;
-		
+		width: 100%;	
+}
+@media only screen and (max-width: 480px) {
+
+}
+
 @media only screen and (max-width: 480px) {
 	nav {
 		float: none;
+		margin: auto;
+		text-align: center;
+	}
+	header {
+		float: none;
+		margin: auto;
 	}
 	h1 {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 	article {
 		width: 80%;
